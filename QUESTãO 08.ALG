@@ -6,11 +6,19 @@ Algoritmo "Questão 08"
 // qual é o valor do consumo médio do automóvel,
 // em quilômetros por litro.
 Var
-// Seção de Declarações das variáveis 
+distancia,consumoM,litros:real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+EScreva("Digite a distância a percorrer na viagem:")
+leia(distancia)
+
+escreva("digite o consumo medio do automovel:")
+leia(consumoM)
+
+litros <- distancia/consumoM
+
+escreva("A quantidade de litros necessários para a viagem é:",litros)
 
 
 Fimalgoritmo
